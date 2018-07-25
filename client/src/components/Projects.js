@@ -104,16 +104,7 @@ class Projects extends Component {
 	          </NavItem>
             </Nav>
         </Navbar>
-        <label style={{'fontSize':'18px','fontWeight':'bold'}}>
-	        Select Project Category:
-	        <select style={{'fontWeight':'bold'}} value={this.state.value} onChange={this.handleChange}>
-	          {optionTemplate}
-	        </select>
-	      </label>
-	      <div style={{'textAlign':'center','marginTop':'50px'}}>
-	      </div>
-
-
+        
         <section className="banner style5">
 	        <label className="content" style={{'fontSize':'18px','fontWeight':'bold'}}>
 		        Project Categories:
