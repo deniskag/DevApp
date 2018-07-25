@@ -2,7 +2,7 @@
 
 DevUp is for the creative, and curious, looking to build up their dev portfolios.
 
-[DevUp Site](https://devup.herokuapp.com/) `https://devup.herokuapp.com/`
+[DevUp Site](https://devapp2110.herokuapp.com) `https://devapp2110.herokuapp.com`
 
 ## Motivation
 
@@ -10,9 +10,9 @@ There are many Non-Profit organizations who are in need of some level of applica
 
 ## Usage
 
-Navigate to [DevUp](https://devup.herokuapp.com/) in a browser. Site URL:
+Navigate to [DevUp](https://devapp2110.herokuapp.com) in a browser. Site URL:
 ```
-https://devup.herokuapp.com/
+https://devapp2110.herokuapp.com
 ```
 
 Or fork us on Github to run locally:
