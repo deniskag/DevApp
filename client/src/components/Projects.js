@@ -90,7 +90,6 @@ class Projects extends Component {
 
     return (
       <div id="wrapper" className="divided">
-<<<<<<< HEAD
         <Navbar color="light" light expand="md">
           <NavbarBrand>DevUp</NavbarBrand>
           <Nav className="ml-auto" navbar>
@@ -105,7 +104,6 @@ class Projects extends Component {
 	          </NavItem>
             </Nav>
         </Navbar>
-<<<<<<< HEAD
         <label style={{'fontSize':'18px','fontWeight':'bold'}}>
 	        Select Project Category:
 	        <select style={{'fontWeight':'bold'}} value={this.state.value} onChange={this.handleChange}>
@@ -115,28 +113,6 @@ class Projects extends Component {
 	      <div style={{'textAlign':'center','marginTop':'50px'}}>
 	      </div>
 
-	      <section className="wrapper style1 align-center">
-		      <div className="inner">
-=======
->>>>>>> eee1f52a7e238a5c660004dd6777dbf248da6f53
-=======
-	      <Navbar color="light" light expand="md">
-		      <NavbarBrand>
-			      <img src={logo} />
-		      </NavbarBrand>
-		      <Nav className="ml-auto" navbar>
-			      <NavItem>
-				      <NavLink href="/ProBono">ProBono Opportunities</NavLink>
-			      </NavItem>
-			      <NavItem>
-				      <NavLink href="/Projects">Categories</NavLink>
-			      </NavItem>
-			      <NavItem>
-				      <NavLink href="/About/">About Us</NavLink>
-			      </NavItem>
-		      </Nav>
-	      </Navbar>
->>>>>>> 161c38c6248f2f45f81f01a5f9d08f19552301e4
 
         <section className="banner style5">
 	        <label className="content" style={{'fontSize':'18px','fontWeight':'bold'}}>
