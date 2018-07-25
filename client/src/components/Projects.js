@@ -83,28 +83,30 @@ class Projects extends Component {
   }
 
   render() {
-
+  	
   	let optionTemplate = this.state.values.map(v => (
       <option style={{'fontWeight':'bold'}} value={v.id}>{v.name}</option>
     ));
 
     return (
       <div id="wrapper" className="divided">
-        <Navbar color="light" light expand="md">
-          <NavbarBrand>DevUp</NavbarBrand>
-          <Nav className="ml-auto" navbar>
-	          <NavItem>
-		          <NavLink href="/ProBono">ProBono Opportunities</NavLink>
-	          </NavItem>
-	          <NavItem>
-		          <NavLink href="/Projects">Categories</NavLink>
-	          </NavItem>
-	          <NavItem>
-		          <NavLink href="/About/">About Us</NavLink>
-	          </NavItem>
-            </Nav>
-        </Navbar>
-        
+	      <Navbar color="light" light expand="md">
+		      <NavbarBrand>
+			      <img src={logo} />
+		      </NavbarBrand>
+		      <Nav className="ml-auto" navbar>
+			      <NavItem>
+				      <NavLink href="/ProBono">ProBono Opportunities</NavLink>
+			      </NavItem>
+			      <NavItem>
+				      <NavLink href="/Projects">Categories</NavLink>
+			      </NavItem>
+			      <NavItem>
+				      <NavLink href="/About/">About Us</NavLink>
+			      </NavItem>
+		      </Nav>
+	      </Navbar>
+
         <section className="banner style5">
 	        <label className="content" style={{'fontSize':'18px','fontWeight':'bold'}}>
 		        Project Categories:
